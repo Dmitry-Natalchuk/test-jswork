@@ -112,11 +112,11 @@ invokeInventoryAction('Gas mask', inventory.remove);
 // Removing Gas mask from inventory
  */
 /* console.log(inventory.items); // ['Knife', 'Medkit'] */
-const arr = [
+/* const arr = [
     [23, 11, ['hello', 'world', 'Vasya']],
     'some str',
     [777, 'word', ['Привет', ['как сюда добраться'], ['John', [{ name: 'Vasya', age: 18 }, ['finish']]]]],
-  ];
+  ]; */
   /* [
     23,
     11,
@@ -188,6 +188,30 @@ const arr = [
     </body>
   </html>
    */
-
-
-
+   function multiply() {
+    return x * y * z;
+  }
+  
+  // Результат работы функции можно сохранить в переменную
+  let result = multiply(2, 3, 5);
+  console.log(result); // 30
+  
+  result = multiply(4, 8, 12);
+  console.log(result); // 384
+  
+  result = multiply(17, 6, 25);
+  console.log(result); // 2550
+ 
+/*   function multiply(x, y, z) {
+    let result = x * y - z
+    console.log(`Результат умножения равен ${result}`);
+  }
+  
+  console.log("Лог до вызова функции multiply");
+  multiply(5, 5, 10); // Результат умножения равен 30
+  console.log("Лог после вызова функции multiply"); */
+  
+  // Последовательность логов в консоли
+  // "Лог до вызова функции multiply"
+  // "Результат умножения равен 30"
+  // "Лог после вызова функции multiply"
